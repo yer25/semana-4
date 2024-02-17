@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+main{
+    height: calc(100vh - 30px);
+    background-color: grey;
+    display: grid;
+    place-items: center;
+    
+}
+
+footer{
+    height: 30px;
+    background-color: gray;
+    display: grid;
+    place-items: center;
+}
+.tarjeta{
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    
+}
+.chips{
+
+    padding: 2px 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-right: 7px;
+}
+.imagen1{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+
+    
+}
+.boton{
+    display: block;
+    margin: auto; 
+    border-radius: 20px;
+    background-color: skyblue;
+    color: blue;
+    border: 2px solid skyblue;
+    padding: 10px 15px;
+}
